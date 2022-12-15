@@ -2,4 +2,11 @@
 	let mgs: string = 'world';
 </script>
 
-<h1>Hello {mgs}</h1>
+<article>
+	<hgroup>
+		<h1>SvelteKit 1.0</h1>
+		<h2>Together with PicoCSS and @auth</h2>
+	</hgroup>
+
+	<button>Button</button>
+</article>

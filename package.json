@@ -11,6 +11,8 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@auth/core": "^0.1.4",
+		"@auth/sveltekit": "^0.1.6",
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@picocss/pico": "^1.5.6",

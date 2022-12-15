@@ -9,8 +9,8 @@
 			<li><strong>KitAuthPico</strong></li>
 		</ul>
 		<ul>
-			<li><a href="/">Main</a></li>
-			<li><a href="/foo">Link</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/auth">Requires Auth</a></li>
 		</ul>
 	</nav>
 </div>

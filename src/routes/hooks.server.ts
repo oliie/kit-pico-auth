@@ -1,8 +1,9 @@
 import SvelteKitAuth from '@auth/sveltekit';
 import GitHub from '@auth/core/providers/github';
+import { GITHUB_ID, GITHUB_SECRET } from '$env/static/private';
 
 export const handle = SvelteKitAuth({
-  providers: [GitHub({ clientId: 'foo', clientSecret: 'secrets' })]
+  providers: [GitHub({ clientId: GITHUB_ID, clientSecret: GITHUB_SECRET })]
 });
 
 // TODO: https://authjs.dev/reference/sveltekit/

@@ -5,7 +5,7 @@
     </ul>
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/auth">Requires Auth</a></li>
+      <li><a href="/club">Requires Auth</a></li>
     </ul>
   </nav>
 </div>

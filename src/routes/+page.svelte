@@ -1,12 +1,12 @@
 <script lang="ts">
-	let mgs: string = 'world';
+  import { page } from '$app/stores';
+
+  $: console.log('$page', $page);
 </script>
 
 <article>
-	<hgroup>
-		<h1>SvelteKit 1.0</h1>
-		<h2>Together with PicoCSS and @auth</h2>
-	</hgroup>
-
-	<button>Button</button>
+  <hgroup>
+    <h1>SvelteKit 1.0</h1>
+    <h2>Together with PicoCSS and @auth</h2>
+  </hgroup>
 </article>
